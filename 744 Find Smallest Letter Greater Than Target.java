@@ -18,7 +18,7 @@ public class Solution {
                 start = mid + 1;
             }
         }
-        return arr[start % arr.length];
+        return arr[start % arr.length];        // wrapping array using modulo
     }
 }
 
